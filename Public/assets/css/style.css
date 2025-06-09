@@ -1,0 +1,144 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.6s ease;
+}
+
+h3{
+  font-size: small;
+  font-weight: 200;
+  opacity: 50%;
+}
+
+.weather-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 500px;
+  position: relative;
+  z-index: 1;
+}
+
+select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.weather-result img {
+  width: 64px;
+  height: 64px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition:  0.6s ease;
+}
+
+.weather-container {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 320px;
+  max-width: 90%;
+}
+
+.weather-container h1 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+input {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  outline: none;
+  width: 70%;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #4e54c8;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 30px;
+  background: #4e54c8;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #6c6ff6;
+}
+
+.weather-result {
+  margin-top: 1.5rem;
+}
+
+.weather-result h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.weather-result p {
+  margin: 0.3rem 0;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.weather-result img {
+  margin-top: 1rem;
+  width: 80px;
+  height: 80px;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.1));
+}
+
+
+
+/* EMOJIS!! So it looks Funny */
+.emoji-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.emoji-background span {
+  position: absolute;
+  font-size: 2.8rem;
+  opacity: 0.3;
+  animation: floatEmoji 10s ease-in-out infinite;
+}
+
+@keyframes floatEmoji {
+  0% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-20px) rotate(10deg); }
+  100% { transform: translateY(0) rotate(0deg); }
+}
