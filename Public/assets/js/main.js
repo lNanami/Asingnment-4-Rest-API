@@ -62,7 +62,7 @@ function updateBackground(condition) {
   }
 }
 
-//  EMOJIS!! So it looks Funny
+//  EMOJIS!! So it looks Funn
 function updateEmojis(condition) {
   const container = document.getElementById("emojiBackground");
   container.innerHTML = "";
@@ -108,3 +108,4 @@ function updateEmojis(condition) {
   }
 
 }
+
